@@ -1,13 +1,7 @@
-import React from "react";
-import Routes from "./components/Routes";
-
+import Banner from './components/Banner'
 
 function App() {
-  return (
-    <div>
-      <Routes />
-    </div>
-  );
+    return <Banner />
 }
 
-export default App;
+export default App
