@@ -1,11 +1,14 @@
-import logo from '../assets/'
+import logo from '../assets/logo.png';
+import '../styles/banner.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 
 function Banner() {
-    const title = 'La maison jungle'
     return (
         <div>
-            <img src={logo} alt='La maison jungle' />
-            <h1>{title}</h1>
+            <img src={logo} alt='Groupomania' className='logo' />
+            <FontAwesomeIcon icon="fa-arrow-right-to-bracket" />
         </div>
     )
 }
